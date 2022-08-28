@@ -72,3 +72,17 @@ input{
 .scoreA{
     display: none;
 }
+
+/* for mobile device */
+@media screen and (max-width:800px) {
+    html{
+        font-size: 35%;
+    }
+    .inner-div{
+        width: 80%;
+        background-color: #fff;
+        padding: 1rem 2rem;
+        border-radius: 0.3rem;
+        box-shadow: 0 1rem 1rem -0.7rem rgba(0,0,0,0.4);
+    }
+}
